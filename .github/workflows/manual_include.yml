@@ -4,7 +4,7 @@ on:
   pull_request:
 jobs:
   code-scan:
-    uses: "stirn/security-pipeline/.github/workflows/include.yml@main"
+    uses: "stirn/security-pipeline/.github/workflows/include.yaml@main"
     secrets: inherit
     permissions:
       issues: write
