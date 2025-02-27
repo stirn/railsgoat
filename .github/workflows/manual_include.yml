@@ -6,7 +6,7 @@ jobs:
   code-scan:
     uses: "stirn/security-pipeline/.github/workflows/include-inside.yml@main"
     secrets: inherit
-    # permissions:
-    #   issues: write
-    #   pull-requests: write
-    #   contents: read
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: read
